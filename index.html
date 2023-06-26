@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speech Recognition</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Speech Recognition</h1>
+    <form id="speechForm">
+        <input type="text" id="textInput" name="text" placeholder="Enter your speech">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="responseContainer"></div>
+
+    <script>
+        $(document).ready(function() {
+            // Intercept the form submission event
+            $('#speechForm').submit(function(event) {
+                event.preventDefault(); // Prevent the form from submitting normally
+
+                // Get the input text
+                var text = $('#textInput').val();
+
+                // Make an AJAX POST request to the Flask endpoint
+                $.ajax({
+                    type: 'POST',
+                    url: '/',
+                    data: {text: text},
+                    success: function(response) {
+                        // Display the response in the container div
+                        $('#responseContainer').text(response);
+                    }
+                });
+
+                // Clear the input field
+                $('#textInput').val('');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,489 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey"],
+      "responses": ["Hello!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": ["Goodbye!", "Take care!", "See you later!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what's your name", "who are you"],
+      "responses": ["I am an AI voice School Teacher.", "You can call me Aleesa."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "when were you born"],
+      "responses": ["I don't have an age as I am an AI.", "I exist in the digital realm, so age doesn't apply to me."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather like today", "tell me the current weather"],
+      "responses": ["The weather is sunny and warm today.", "It's currently 25 degrees Celsius with clear skies."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "tell me the time"],
+      "responses": ["The current time is 10:30 AM.", "It's 2:45 PM right now."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "say something funny"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Did you hear about the mathematician who's afraid of negative numbers? He'll stop at nothing to avoid them!"]
+    },
+    {
+      "tag": "news",
+      "patterns": ["what's the latest news", "tell me the news"],
+      "responses": ["In the latest news, scientists have made a groundbreaking discovery...", "Here's a news headline: 'Local charity receives record-breaking donations.'"]
+    },
+    {
+      "tag": "music",
+      "patterns": ["play some music", "can you recommend a song"],
+      "responses": ["Sure, here's a popular song you might enjoy: [song name] by [artist].", "Let me find a great song for you..."]
+    },
+    {
+      "tag": "reminder",
+      "patterns": ["remind me to [task]", "set a reminder for [task]"],
+      "responses": ["Alright, I'll remind you to [task].", "Consider it done. I'll remind you to [task]."]
+    },
+    {
+      "tag": "calendar",
+      "patterns": ["what's on my calendar today", "do I have any appointments today"],
+      "responses": ["You have a meeting at 2 PM and a doctor's appointment at 4 PM today.", "Your calendar for today shows a gym session at 5 PM and a dinner reservation at 8 PM."]
+    },
+    {
+      "tag": "email",
+      "patterns": ["send an email to [contact]", "compose an email"],
+      "responses": ["Who is the recipient of the email?", "Sure, what's the subject of the email?"]
+    },
+    {
+      "tag": "translation",
+      "patterns": ["translate [phrase] to [language]", "how do you say [phrase] in [language]"],
+      "responses": ["The translation of '[phrase]' to [language] is '[translation]'.", "In [language], '[phrase]' translates to '[translation]'. "]
+    },
+    {
+      "tag": "restaurant",
+      "patterns": ["find restaurants near me", "recommend a restaurant"],
+      "responses": ["There are several restaurants near you. Here are a few options: [restaurant 1], [restaurant 2], [restaurant 3].", "I recommend trying [restaurant]. It has great reviews and serves delicious food."]
+    },
+    {
+      "tag": "directions",
+      "patterns": ["give me directions to [location]", "how do I get to [location]"],
+      "responses": ["To get to [location], follow these directions: [directions].", "I can help you with directions. Where are you currently located?"]
+    },
+    {
+      "tag": "shopping",
+      "patterns": ["find [product] online", "search for [product]"],
+      "responses": ["I found several options for [product] online. Here are a few: [link 1], [link 2], [link 3].", "You can find [product] on these websites: [website 1], [website 2], [website 3]."]
+    },
+    {
+      "tag": "calculator",
+      "patterns": ["what is [number1] plus [number2]", "calculate [number1] multiplied by [number2]"],
+      "responses": ["The result of [number1] plus [number2] is [result].", "The answer to [number1] multiplied by [number2] is [result]."]
+    },
+    {
+      "tag": "movie",
+      "patterns": ["recommend a movie", "what are some popular movies"],
+      "responses": ["I recommend watching [movie]. It has great reviews and an interesting storyline.", "Here are some popular movies: [movie 1], [movie 2], [movie 3]."]
+    },
+    {
+      "tag": "definition",
+      "patterns": ["what does [word] mean", "define [word]"],
+      "responses": ["The definition of [word] is '[definition]'.", "Here's the meaning of [word]: '[definition]'. "]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["what's the score of the latest [sport] game", "who won the [team1] vs [team2] match"],
+      "responses": ["The score of the latest [sport] game was [score].", "[team1] won the match against [team2] with a score of [score]."]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["tell me a fun fact", "share an interesting fact"],
+      "responses": ["Did you know that [fun fact]?", "Here's an interesting fact: [fun fact]."]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["what's the latest technology news", "tell me about the newest gadgets"],
+      "responses": ["In the latest technology news, scientists have developed a revolutionary device...", "Here's a headline from the tech world: 'New smartphone with groundbreaking features announced.'"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you're doing a great job", "you're awesome"],
+      "responses": ["Thank you! I'm here to assist you.", "I appreciate your kind words! It's my pleasure to help."]
+    },
+    {
+      "tag": "math",
+      "patterns": ["solve for x in the equation y = mx + b", "what's the value of pi"],
+      "responses": ["The value of x in the equation y = mx + b is [value].", "The value of pi is approximately 3.14159."]
+    },
+    {
+      "tag": "traffic",
+      "patterns": ["what's the traffic like", "are there any traffic jams"],
+      "responses": ["The traffic is currently moderate. It might take a bit longer to reach your destination.", "There are no major traffic jams reported at the moment."]
+    },
+    {
+      "tag": "history",
+      "patterns": ["tell me a historical fact", "what happened on this day in history"],
+      "responses": ["On this day in history, [event] took place.", "Here's a historical fact: [fact]."]
+    },
+    {
+      "tag": "quote",
+      "patterns": ["give me a quote", "share an inspirational quote"],
+      "responses": ["Here's a quote to inspire you: [quote].", "A famous quote once said, '[quote]'. "]
+    },
+    {
+      "tag": "book",
+      "patterns": ["recommend a book", "what's a popular book"],
+      "responses": ["I recommend reading '[book]'. It's highly acclaimed and has received rave reviews.", "Here's a popular book you might enjoy: '[book]'. "]
+    },
+    {
+      "tag": "recipe",
+      "patterns": ["find a recipe for [dish]", "how do I cook [dish]"],
+      "responses": ["Here's a recipe for [dish]: [recipe].", "To cook [dish], follow these steps: [steps]."]
+    },
+    {
+      "tag": "date",
+      "patterns": ["what's today's date", "tell me the current date"],
+      "responses": ["Today's date is [date].", "It's [date] today."]
+    },
+    {
+      "tag": "trivia",
+      "patterns": ["give me a trivia question", "test my knowledge with a question"],
+      "responses": ["Here's a trivia question: [question]. What's your answer?", "Can you answer this trivia question? [question]"]
+    },
+    {
+      "tag": "language",
+      "patterns": ["how do you say hello in [language]", "translate goodbye to [language]"],
+      "responses": ["In [language], hello is pronounced as '[translation]'.", "Goodbye in [language] is '[translation]'. "]
+    },
+    {
+      "tag": "holiday",
+      "patterns": ["when is [holiday]", "tell me about [holiday]"],
+      "responses": ["[Holiday] is celebrated on [date]. It's a [description] holiday.", "Here's some information about [holiday]: [information]."]
+    },
+    {
+      "tag": "sports_news",
+      "patterns": ["tell me the latest sports news", "what's happening in the world of sports"],
+      "responses": ["In the latest sports news, [news].", "Here's a headline from the world of sports: '[headline]'."]
+    },
+    {
+      "tag": "insult",
+      "patterns": ["you're dumb", "you're useless"],
+      "responses": ["I apologize if I've done something wrong. How can I assist you?", "I'm here to help. Let me know what you need."]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you're helpful", "you're amazing"],
+      "responses": ["Thank you for your kind words! I'm glad I can assist you.", "I appreciate your compliment! It's my pleasure to help."]
+    },
+    {
+      "tag": "calendar",
+      "patterns": ["add an event to my calendar", "create a new appointment"],
+      "responses": ["Sure, please provide the details of the event (date, time, and description).", "To add an event to your calendar, please provide the necessary details."]
+    },
+    {
+      "tag": "knowledge",
+      "patterns": ["what is the capital of [country]", "who is the president of [country]"],
+      "responses": ["The capital of [country] is [capital].", "The current president of [country] is [president]."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a knock-knock joke", "say a joke"],
+      "responses": ["Knock, knock. Who's there? [Name]. [Name] who? [Punchline]!", "Why did the chicken cross the road? To get to the other side!"]
+    },
+    {
+      "tag": "movie_genre",
+      "patterns": ["recommend a [genre] movie", "what are some popular [genre] movies"],
+      "responses": ["I recommend watching '[movie]' in the [genre] genre. It has great reviews and an interesting storyline.", "Here are some popular [genre] movies: [movie 1], [movie 2], [movie 3]."]
+    },
+    {
+      "tag": "music_genre",
+      "patterns": ["play some [genre] music", "can you recommend a [genre] song"],
+      "responses": ["Sure, here's a popular [genre] song you might enjoy: [song name] by [artist].", "Let me find a great [genre] song for you..."]
+    },
+    {
+      "tag": "health",
+      "patterns": ["what are some healthy recipes", "how can I stay fit"],
+      "responses": ["Here are some healthy recipes you can try: [recipe 1], [recipe 2], [recipe 3].", "To stay fit, it's important to maintain a balanced diet and engage in regular exercise."]
+    },
+    {
+      "tag": "thank",
+      "patterns": ["thank you", "thanks a lot"],
+      "responses": ["You're welcome! If you have any more questions, feel free to ask.", "You're welcome! I'm here to help."]
+    },
+    {
+      "tag": "birthday",
+      "patterns": ["when is my birthday", "remind me of my birthday"],
+      "responses": ["I'm sorry, but I don't have access to your personal information. Please provide your birthdate.", "I don't have your birthday information. Could you please let me know when your birthday is?"]
+    },
+    {
+      "tag": "meaning_of_life",
+      "patterns": ["what is the meaning of life", "why are we here"],
+      "responses": ["The meaning of life is subjective and can vary from person to person. It's about finding purpose and happiness in your own journey.", "The purpose of life is a profound question that has been pondered by philosophers and individuals throughout history. It's up to each person to find their own meaning."]
+    },
+    {
+      "tag": "love",
+      "patterns": ["tell me a love quote", "what is love"],
+      "responses": ["Love is a complex and beautiful emotion that brings people together. Here's a quote about love: [quote].", "Love is an indescribable feeling that can be both exhilarating and comforting. It's a connection that transcends words."]
+    },
+    {
+      "tag": "fact",
+      "patterns": ["tell me an interesting fact", "share a random fact"],
+      "responses": ["Did you know that [fact]? It's quite fascinating!", "Here's an interesting fact: [fact]."]
+    },
+    {
+      "tag": "technology_news",
+      "patterns": ["tell me the latest technology news", "what's new in the tech world"],
+      "responses": ["In the latest technology news, [news].", "Here's a headline from the tech world: '[headline]'."]
+    },
+    {
+      "tag": "sports_team",
+      "patterns": ["which is your favorite sports team", "who do you support in [sport]"],
+      "responses": ["As an AI, I don't have personal preferences. I'm here to provide information and assistance.", "I don't have the capability to support or have a favorite sports team."]
+    },
+    {
+      "tag": "education",
+      "patterns": ["what are some educational websites", "how can I improve my knowledge"],
+      "responses": ["Here are some educational websites you can explore: [website 1], [website 2], [website 3].", "To improve your knowledge, you can read books, take online courses, or engage in self-study."]
+    },
+    {
+      "tag": "emotion",
+      "patterns": ["how are you feeling", "are you happy"],
+      "responses": ["As an AI, I don't have feelings in the same way humans do. But I'm here to assist you!", "I don't experience emotions, but I'm here to help you to the best of my abilities."]
+    },
+    {
+      "tag": "travel",
+      "patterns": ["recommend a travel destination", "where should I go on vacation"],
+      "responses": ["There are many amazing travel destinations to explore. Can you provide some preferences or interests?", "To recommend a travel destination, I'll need to know your preferred type of vacation (relaxing, adventurous, cultural, etc.) and your budget."]
+    },
+    {
+      "tag": "animal",
+      "patterns": ["tell me an interesting animal fact", "what is your favorite animal"],
+      "responses": ["Here's an interesting fact about animals: [fact].", "As an AI, I don't have personal preferences. But I find all animals fascinating."]
+    },
+    {
+      "tag": "relationship",
+      "patterns": ["how to maintain a healthy relationship", "what makes a strong relationship"],
+      "responses": ["Maintaining a healthy relationship requires open communication, trust, mutual respect, and understanding.", "A strong relationship is built on trust, communication, empathy, and shared values."]
+    },
+    {
+      "tag": "cooking",
+      "patterns": ["give me a cooking tip", "how do I improve my cooking skills"],
+      "responses": ["Here's a cooking tip: [tip].", "To improve your cooking skills, practice new recipes, experiment with different ingredients, and watch cooking tutorials."]
+    },
+    {
+      "tag": "career",
+      "patterns": ["how to choose a career", "what is a fulfilling job"],
+      "responses": ["Choosing a career involves considering your interests, strengths, values, and long-term goals. It can also be helpful to seek guidance from career counselors or professionals in your desired field.", "A fulfilling job is one that aligns with your passions, allows you to make a positive impact, and provides personal satisfaction and growth."]
+    },
+    {
+      "tag": "exercise",
+      "patterns": ["what are some effective exercises", "how can I stay fit"],
+      "responses": ["Some effective exercises include cardio workouts like running or cycling, strength training exercises, and flexibility exercises like yoga or stretching.", "To stay fit, it's important to engage in regular physical activity, such as jogging, swimming, or cycling, and maintain a balanced diet."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather like today", "will it rain tomorrow"],
+      "responses": ["The weather today is [weather].", "The forecast for tomorrow predicts [weather]."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["what's happening in the world", "tell me the latest news"],
+      "responses": ["In the latest news, [news].", "Here's a headline from today's news: '[headline]'."]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["what's the latest technology news", "tell me about the newest gadgets"],
+      "responses": ["In the latest technology news, scientists have developed a revolutionary device...", "Here's a headline from the tech world: 'New smartphone with groundbreaking features announced.'"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you're doing a great job", "you're awesome"],
+      "responses": ["Thank you! I'm here to assist you.", "I appreciate your kind words! It's my pleasure to help."]
+    },
+    {
+      "tag": "math",
+      "patterns": ["what is [number1] plus [number2]", "calculate [number1] multiplied by [number2]"],
+      "responses": ["The result of [number1] plus [number2] is [result].", "The answer to [number1] multiplied by [number2] is [result]."]
+    },
+    {
+      "tag": "movie",
+      "patterns": ["recommend a movie", "what are some popular movies"],
+      "responses": ["I recommend watching [movie]. It has great reviews and an interesting storyline.", "Here are some popular movies: [movie 1], [movie 2], [movie 3]."]
+    },
+    {
+      "tag": "definition",
+      "patterns": ["what does [word] mean", "define [word]"],
+      "responses": ["The definition of [word] is '[definition]'.", "Here's the meaning of [word]: '[definition]'. "]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["what's the score of the latest [sport] game", "who won the [team1] vs [team2] match"],
+      "responses": ["The score of the latest [sport] game was [score].", "[team1] won the match against [team2] with a score of [score]."]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["tell me a fun fact", "share an interesting fact"],
+      "responses": ["Did you know that [fun fact]?", "Here's an interesting fact: [fun fact]."]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["what's the latest technology news", "tell me about the newest gadgets"],
+      "responses": ["In the latest technology news, scientists have developed a revolutionary device...", "Here's a headline from the tech world: 'New smartphone with groundbreaking features announced.'"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you're doing a great job", "you're awesome"],
+      "responses": ["Thank you! I'm here to assist you.", "I appreciate your kind words! It's my pleasure to help."]
+    },
+    {
+      "tag": "math",
+      "patterns": ["what is [number1] plus [number2]", "calculate [number1] multiplied by [number2]"],
+      "responses": ["The result of [number1] plus [number2] is [result].", "The answer to [number1] multiplied by [number2] is [result]."]
+    },
+    {
+      "tag": "movie",
+      "patterns": ["recommend a movie", "what are some popular movies"],
+      "responses": ["I recommend watching [movie]. It has great reviews and an interesting storyline.", "Here are some popular movies: [movie 1], [movie 2], [movie 3]."]
+    },
+    {
+      "tag": "definition",
+      "patterns": ["what does [word] mean", "define [word]"],
+      "responses": ["The definition of [word] is '[definition]'.", "Here's the meaning of [word]: '[definition]'. "]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["what's the score of the latest [sport] game", "who won the [team1] vs [team2] match"],
+      "responses": ["The score of the latest [sport] game was [score].", "[team1] won the match against [team2] with a score of [score]."]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["tell me a fun fact", "share an interesting fact"],
+      "responses": ["Did you know that [fun fact]?", "Here's an interesting fact: [fun fact]."]
+    },
+    {
+      "tag": "music",
+      "patterns": ["play some music", "recommend a song"],
+      "responses": ["Sure! What genre or artist would you like to listen to?", "I can play music from various genres. What kind of music are you in the mood for?"]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "bye", "see you later"],
+      "responses": ["Goodbye! Have a great day!", "Bye! Take care and have a wonderful day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks"],
+      "responses": ["You're welcome! If you have any more questions, feel free to ask.", "You're welcome! I'm here to help."]
+    },
+    {
+      "tag": "robot",
+      "patterns": ["are you a robot", "what are you"],
+      "responses": ["Yes, I am an AI-powered virtual assistant.", "I'm an AI language model designed to assist and provide information."]
+    },
+    {
+      "tag": "personal_question",
+      "patterns": ["what's your name", "where are you from"],
+      "responses": ["I'm an AI assistant created by OpenAI. You can call me ChatGPT.", "I don't have a personal name or origin. I'm here to help you with your questions."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "when were you born"],
+      "responses": ["I don't have an age or a birthdate. I'm an AI language model created by OpenAI.", "I don't have a physical form or existence in the same way humans do, so I don't have an age."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather like today", "will it rain tomorrow"],
+      "responses": ["The weather today is [weather].", "The forecast for tomorrow predicts [weather]."]
+    },
+    {
+      "tag": "news",
+      "patterns": ["what's happening in the world", "tell me the latest news"],
+      "responses": ["In the latest news, [news].", "Here's a headline from today's news: '[headline]'."]
+    },
+    {
+      "tag": "technology",
+      "patterns": ["what's the latest technology news", "tell me about the newest gadgets"],
+      "responses": ["In the latest technology news, scientists have developed a revolutionary device...", "Here's a headline from the tech world: 'New smartphone with groundbreaking features announced.'"]
+    },
+    {
+      "tag": "compliment",
+      "patterns": ["you're doing a great job", "you're awesome"],
+      "responses": ["Thank you! I'm here to assist you.", "I appreciate your kind words! It's my pleasure to help."]
+    },
+    {
+      "tag": "math",
+      "patterns": ["what is [number1] plus [number2]", "calculate [number1] multiplied by [number2]"],
+      "responses": ["The result of [number1] plus [number2] is [result].", "The answer to [number1] multiplied by [number2] is [result]."]
+    },
+    {
+      "tag": "movie",
+      "patterns": ["recommend a movie", "what are some popular movies"],
+      "responses": ["I recommend watching [movie]. It has great reviews and an interesting storyline.", "Here are some popular movies: [movie 1], [movie 2], [movie 3]."]
+    },
+    {
+      "tag": "definition",
+      "patterns": ["what does [word] mean", "define [word]"],
+      "responses": ["The definition of [word] is '[definition]'.", "Here's the meaning of [word]: '[definition]'. "]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["what's the score of the latest [sport] game", "who won the [team1] vs [team2] match"],
+      "responses": ["The score of the latest [sport] game was [score].", "[team1] won the match against [team2] with a score of [score]."]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["tell me a fun fact", "share an interesting fact"],
+      "responses": ["Did you know that [fun fact]?", "Here's an interesting fact: [fun fact]."]
+    },
+    {
+      "tag": "music",
+      "patterns": ["play some music", "recommend a song"],
+      "responses": ["Sure! What genre or artist would you like to listen to?", "I can play music from various genres. What kind of music are you in the mood for?"]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "bye", "see you later"],
+      "responses": ["Goodbye! Have a great day!", "Bye! Take care and have a wonderful day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks"],
+      "responses": ["You're welcome! If you have any more questions, feel free to ask.", "You're welcome! I'm here to help."]
+    },
+    {
+      "tag": "robot",
+      "patterns": ["are you a robot", "what are you"],
+      "responses": ["Yes, I am an AI-powered virtual assistant.", "I'm an AI language model designed to assist and provide information."]
+    },
+    {
+      "tag": "personal_question",
+      "patterns": ["what's your name", "where are you from"],
+      "responses": ["I'm an AI assistant created by OpenAI. You can call me ChatGPT.", "I don't have a personal name or origin. I'm here to help you with your questions."]
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old are you", "when were you born"],
+      "responses": ["I don't have an age or a birthdate. I'm an AI language model created by OpenAI.", "I don't have a physical form or existence in the same way humans do, so I don't have an age."]
+    },
+    {
+      "tag": "unknown",
+      "responses": ["I'm sorry, I didn't understand that.", "Could you please repeat that?"]
+    }
+  ]
+}
+
